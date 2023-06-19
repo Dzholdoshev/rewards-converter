@@ -23,7 +23,7 @@ public class RewardValue {
     public Integer getMilesValue() {
         return milesValue;
     }
-    private static double convertToCash(int milesValue) {
+    public static double convertToCash(int milesValue) {
         return milesValue * CONVERSION_RATE_TO_CASH;
     }
 
